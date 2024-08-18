@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrandPals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body id="booking_body">
+    <header>
+        <h1>Schedule your time to meet with the elders!</h1>
+    </header>
+    <div class="button-container">
+        <a href="aboutus.html" class="button">About Us</a>
+        <a href="activities.html" class="button">Activities</a>
+        <a href="booking.html" class="button">Booking</a>
+        <a href="communication.html" class="button">Communication</a>
+    </div>
+<section class="timetable">
+    <h2 id="time">Available Time Slots</h2>
+    <table>
+        <thead>
+            <tr>
+                <th id="time">Time</th>
+                <th id="time">Monday</th>
+                <th id="time">Tuesday</th>
+                <th id="time">Wednesday</th>
+                <th id="time">Thursday</th>
+                <th id="time">Friday</th>
+                <th id="time">Saturday</th>
+                <th id="time">Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="time">10:00 AM - 12:00 PM</td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+            </tr>
+            <tr>
+                <td id="time">12.00PM - 2:00PM</td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+            </tr>
+            <tr>
+                <td id="time">2:00 PM - 4:00 PM</td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+            </tr>
+            <tr>
+                <td id="time">4:00 PM - 6:00 PM</td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+                <td><button class="slot" onclick="confirmSlot(this)">Available</button></td>
+            </tr>
+            <!-- Add more time slots as needed -->
+        </tbody>
+    </table>
+</section>
+<div id="goback">
+    <a href="index.html" class="button">go back to map</a>
+</div>
+<footer>
+    <p>&copy; corporation:CompanUnion product:grandpals</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
